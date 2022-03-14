@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+    <link rel="icon" href="..\pictures\favicon.ico" type="image/x-icon">
+
+  <style>
+    table {
+      border:1px solid;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      text-align:center;
+      border: 1px solid;
+    }
+
+    th {
+      width:80px;
+    }
+
+    td {
+      width:220px;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+    <a href="index.html"><h2>home</h2></a>
+
+    <table>
+      <tr>
+        <th colspan="2">Contact details</th>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td>Daniel Moschnitzka</td>
+      </tr>
+      <tr>
+        <th>Adress</th>
+        <td>somewhere in Thailand</td>
+      </tr>
+      <tr>
+        <th>Phone</th>
+        <td>+66 661177891</td>
+      </tr>
+      <tr>
+        <th>E-Mail</th>
+        <td>d.moschnitzka@gmail.com</td>
+      </tr>
+    </table>
+<br>
+
+  <form action="mailto: d.moschnitzka@gmail.com" method="post" enctype="text/plain" target=_"blank">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value="">
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <br>
+    <label>Your Message:</label>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+<br>
+<br>
+  <p>Choose your favorite coding language:</p>
+  <form>
+    <input type="radio" name="fav" id="html" value="HTML">
+    <label for="html">HTML</label>
+  <br>
+    <input type="radio" name="fav" id="css" value="CSS">
+    <label for="css">CSS</label>
+  <br>
+    <input type="radio" name="fav" id="c++" value="c++">
+    <label for="c++">C++</label>
+  <br>
+    <input type="radio" name="fav" id="javascript" value="JAVASCRIPT">
+    <label for="javascript">JAVASCRIPT</label>
+  <br>
+    <input type="submit" name="" value="Submit">
+  </form>
+
+  </body>
+</html>
